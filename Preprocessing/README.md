@@ -4,7 +4,7 @@ This directory contains the script `pipeline.sh` for preprocessing raw paired-en
 
 ## Steps 
 
-1. Remove barcodes, primmer sequencues,poor quality bases form the 3'-end of reads, and reads whose length is less than 50 bp using CutAdapt v3.0.
+1. Remove barcodes, primmers, poor quality bases form the 3'-end of reads, and reads whose length is less than 50 bp using CutAdapt v3.0.
 2. Generate quality reports using FastQC v0.11.9 and MultiQC v1.9.
 3. Merge forward and reverse reads using Flash2 v2.2.02.
 4. Align reads against the bacteriophage $\text{Q}\beta$ reference genome using BWA v0.7.17.
