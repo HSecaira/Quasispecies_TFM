@@ -11,3 +11,4 @@ This directory contains the script `pipeline.sh` for preprocessing raw paired-en
 5. Filter reads that contain indels and whose length is less than the region of interest using SAMtools v1.11 and AWK. 
 6. Collapse identical reads into a single sequnce keeping a record of their abundance using FASTX-Toolkit v0.0.14. 
 
+![alt text](https://github.com/HSecaira/Quasispecies_TFM/blob/main/Preprocessing/pipelineHorizontal.pdf)
